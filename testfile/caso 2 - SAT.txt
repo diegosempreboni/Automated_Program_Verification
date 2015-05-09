@@ -1,0 +1,2 @@
+select(store(A1,i1,v1),i2)=v1
+i1!=i2

@@ -1,0 +1,2 @@
+select(store(store(store(A1,i1,v1),i2,v2),i3,v3),i4)=select(store(store(store(A1,i1,v1),i2,v2),i3,v3),i4)
+select(store(store(store(A1,i1,v1),i2,v2),i3,v3),i4)!=select(store(store(store(A1,i1,v1),i2,v2),i3,v3),i4)

@@ -1,0 +1,4 @@
+fA1(fA2(select(store(store(A2,i2,v2),i1,v1),i4)))=fA1(i1,i4)
+select(store(store(A1,i1,v1),i2,v2),i1)=v3
+v1!=v3
+i2!=i1
