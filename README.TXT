@@ -1,29 +1,28 @@
-===========================
-DESCRIZIONE DELL'ESECUZIONE
-===========================
+=============================
+DESCRIPTION OF IMPLEMENTATION
+=============================
 
-- Lanciare il file JAVA SatChecker.java
-  presente all'interno della cartella Eseguibile
+- Run the Jar file SatChecker.jar
+  inside the jar folder
 
-- Dal Menù, selezionare File -> Apri un File…
+- From Menù, select File -> Load File…
 
-- Selezionare un file di testo (*.txt)
+- Select a text file (*.txt)
 
 ================================================================
 
-La grammatica è cosi definita:
+- The grammar used for the input file, is as following:
 
-ELEMENTI:'v'(DIGIT)+;
+ELEMENTS:’v’(DIGIT)+;
 
-INDICI:	'i'(DIGIT)+;
+INDEX:	'i'(DIGIT)+;
 
-VARIABILI FRESH: 'j'(DIGIT)+;
+VARIABLES FRESH: 'j'(DIGIT)+;
 
 ARRAY: 	'A'(DIGIT)+;
 
-FUNZIONI: 'f'ARRAY | 'a'..'e' | 'g'..'h' | 'k'..'u' | 'w'..'z';
+FUNCTIONS: 'f'ARRAY | 'a'..'e' | 'g'..'h' | 'k'..'u' | 'w'..'z';
 
 ===============================================================
 
-- Per il Javadoc, consultare il file index.html 
-  dentro la cartella Javadoc
+- To launch Javadoc, consult index.html file inside the Javadoc folder.
